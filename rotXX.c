@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main(int C, char** V) {
+main(int C, char** V) {
 	int c, r = (C > 1 ? atoi(V[1]) : 13);
 	while((c = getchar()) != EOF) {
 		if((c >= 65 && c <= 90) || (c >= 97 && c <= 122)) {
