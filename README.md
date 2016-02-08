@@ -34,3 +34,13 @@ ciphers are easy to spot and easier to break):
 ```
 cat my_journal.txt | rotXX 18
 ```
+
+## Stupidify Branch Caveats
+This branch is basically a giant middle finger to `if` statements and whitespace. It
+definitely ain't an IOCCC contender, but it made for a fun game of code golf against
+myself. :)
+
+The only functional difference is that there is no check for invalid rot values. It
+works sanely up through 29 before the wraparound check becomes unable to cope with
+the situation (though it does "fix" itself a bit later on -- try `./rotXX 282`!).
+
