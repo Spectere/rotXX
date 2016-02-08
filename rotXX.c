@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 
 main(int C, char** V) {
