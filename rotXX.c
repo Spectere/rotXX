@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 main(int C, char** V) {
 	int c, r = (C > 1 ? atoi(V[1]) : 13);
 	for(;c>-1;c=getchar())
